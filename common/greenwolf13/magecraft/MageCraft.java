@@ -158,7 +158,7 @@ public class MageCraft {
       GameRegistry.registerBlock(blockQuartzOreMageCraft);
       GameRegistry.registerBlock(blockTopazOreMageCraft);
       GameRegistry.registerBlock(blockAmethystOreMageCraft);
-      //GameRegistry.registerBlock(blockGarnetMageCraft);
+      GameRegistry.registerBlock(blockGarnetOreMageCraft);
       GameRegistry.registerBlock(blockSaltpeterOreMageCraft);
       GameRegistry.registerBlock(blockApatiteOreMageCraft);
       GameRegistry.registerBlock(blockSulphurOreMageCraft);
@@ -166,7 +166,7 @@ public class MageCraft {
       GameRegistry.registerBlock(blockAlchemistWorktableMageCraft);
       GameRegistry.registerBlock(blockWritingDeskMageCraft);
       GameRegistry.registerBlock(blockArcaneInfuserMageCraft);
-      //GameRegistry.registerBlock(blockHeatInfuserMageCraft);
+      GameRegistry.registerBlock(blockSteamInfuserMageCraft);
       GameRegistry.registerBlock(blockGreekFireMageCraft);
       MinecraftForge.setBlockHarvestLevel(blockLeadOreMageCraft, "pickaxe", 2);
       MinecraftForge.setBlockHarvestLevel(blockSilverOreMageCraft, "pickaxe", 2);
@@ -194,10 +194,10 @@ public class MageCraft {
       LanguageRegistry.addName(blockApatiteOreMageCraft, "Apatite Crystal");
       LanguageRegistry.addName(blockSulphurOreMageCraft, "Sulphur Crystal");
       LanguageRegistry.addName(blockLimestoneOreMageCraft, "Limestone");
-      //LanguageRegistry.addName(blockAlchemistWorktableMageCraft, "Alchemist Worktable");
+      LanguageRegistry.addName(blockAlchemistWorktableMageCraft, "Alchemist Worktable");
       LanguageRegistry.addName(blockWritingDeskMageCraft, "Writing Desk");
       LanguageRegistry.addName(blockArcaneInfuserMageCraft, "Arcane Infuser");
-      //LanguageRegistry.addName(blockHeatInfuserMageCraft, "Thermionic Infuser");
+      LanguageRegistry.addName(blockSteamInfuserMageCraft, "Thermionic Infuser");
       LanguageRegistry.addName(blockGreekFireMageCraft, "Greek Fire");
       LanguageRegistry.addName(itemEssenceMageCraft, "Low Essence");
       LanguageRegistry.addName(itemEssence2MageCraft, "Medium Essence");
